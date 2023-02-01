@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+
+}
+.container
+{
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+
+}
+.container form
+{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgb(0,0,0,.1);
+    padding: 20px;
+    width: 600px;
+}
+
+.container form .inputBox
+{
+    margin-top: 20px;
+}
+.container form .inputBox span
+{
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+
+}
+.container form .inputBox input,
+.container form .inputBox select
+{
+   width: 100%;
+   padding: 10px;
+   border-radius: 10px;
+   border: 1px solid rgb(0,0,0,.3);
+   color: #444;
+}
+.container form .flexbox
+{
+    display: flex;
+    gap: 15px;
+}
+
+.container form .flexbox .inputBox
+{
+    flex: 1 1 150px;
+}
+
+.container form .submit-btn
+{
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.container form .inputBox .submit-btn :hover
+{
+    
+}
